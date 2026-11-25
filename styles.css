@@ -234,27 +234,6 @@ button{font:inherit;color:inherit}
 .ruta__end{margin-top:2.4rem}
 .ruta__note{margin-top:.9rem;font-family:var(--f-display);font-style:italic;font-size:1.15rem;color:var(--turquesa-profundo)}
 
-/* Escenas */
-.scene{position:relative}
-.ivy path{animation:sway 4.5s ease-in-out infinite alternate}
-.ivy path:nth-child(2){animation-delay:-1s}.ivy path:nth-child(3){animation-delay:-2s}.ivy path:nth-child(4){animation-delay:-3s}.ivy path:nth-child(5){animation-delay:-.5s}
-@keyframes sway{from{transform:rotate(-5deg)}to{transform:rotate(5deg)}}
-.scene--ojo{background:radial-gradient(circle at 50% 50%,#0A4A5A 0 10%,#0E6F7C 22%,#1FA3B0 55%,var(--turquesa-claro) 100%)}
-.ring{position:absolute;left:50%;top:50%;width:40%;aspect-ratio:1;translate:-50% -50%;border:2px solid rgba(255,255,255,.75);border-radius:50%;opacity:0;animation:ripple 4s ease-out infinite;animation-delay:calc(var(--d,0)*1s)}
-@keyframes ripple{0%{transform:scale(.2);opacity:.9}100%{transform:scale(2.6);opacity:0}}
-.spark{position:absolute;left:var(--x);top:var(--y);width:6px;height:6px;border-radius:50%;background:#fff;box-shadow:0 0 10px 3px rgba(255,255,255,.8);animation:twinkle 2.4s ease-in-out infinite;animation-delay:var(--d,0s)}
-@keyframes twinkle{0%,100%{opacity:.1;transform:scale(.6)}50%{opacity:1;transform:scale(1.2)}}
-.orb{transform-origin:0 0;animation:spin 18s linear infinite}
-.orb.o2{animation-duration:26s;animation-direction:reverse}
-.orb.o3{animation-duration:34s}
-.orb.o4{animation-duration:22s;animation-direction:reverse}
-.orb.o5{animation-duration:40s}
-.scene--bano{background:linear-gradient(180deg,var(--turquesa-claro),var(--turquesa) 60%,var(--turquesa-profundo))}
-.scene--bano::before{content:"";position:absolute;inset:-20%;background:radial-gradient(ellipse 40px 24px at 20% 30%,rgba(255,255,255,.55),transparent 70%),radial-gradient(ellipse 60px 30px at 60% 55%,rgba(255,255,255,.45),transparent 70%),radial-gradient(ellipse 50px 26px at 80% 20%,rgba(255,255,255,.5),transparent 70%);background-size:140px 100px,180px 120px,160px 110px;animation:caustic 9s linear infinite}
-@keyframes caustic{to{background-position:140px 100px,-180px 120px,160px -110px}}
-.bub{position:absolute;bottom:-16px;left:var(--x);width:var(--s);height:var(--s);border-radius:50%;border:1.5px solid rgba(255,255,255,.85);background:rgba(255,255,255,.2);animation:rise var(--t) ease-in infinite;animation-delay:var(--d)}
-@keyframes rise{0%{transform:translateY(0);opacity:0}15%{opacity:1}100%{transform:translateY(-280px);opacity:0}}
-
 /* Carta náutica */
 .rose__in{transform-box:fill-box;transform-origin:center;animation:spin 90s linear infinite}
 .node__c{fill:var(--arena);stroke:var(--verde);stroke-width:3;transition:fill .4s,stroke .4s}
