@@ -1,0 +1,842 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<!-- Estado inicial: "js" habilita las animaciones de entrada; los respaldos garantizan que nada quede oculto -->
+<script>(function(d){d.classList.add('js','loading');setTimeout(function(){d.classList.remove('loading')},2400);setTimeout(function(){if(!window.__pcOk){d.classList.add('no-anim')}d.classList.remove('loading')},3200)})(document.documentElement)</script>
+<title>Recorrido en lancha por la ría de Celestún | Playa Columpio</title>
+<meta name="description" content="Recorrido de 2 horas en lancha por manglares, playas vírgenes, flamencos y ojo de agua en Celestún, Yucatán. Guías certificados. Escríbenos por WhatsApp.">
+<meta name="theme-color" content="#FBF6EA">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_MX">
+<meta property="og:site_name" content="Playa Columpio Celestún">
+<meta property="og:title" content="Recorrido en lancha por la ría de Celestún | Playa Columpio">
+<meta property="og:description" content="2 horas entre manglares, playas vírgenes, flamencos y ojo de agua, con guía certificado a bordo. Escríbenos por WhatsApp.">
+<meta property="og:image" content="assets/img/005-whatsapp-image-20261125-022434.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Recorrido en lancha por la ría de Celestún | Playa Columpio">
+<meta name="twitter:description" content="2 horas entre manglares, playas vírgenes, flamencos y ojo de agua, con guía certificado a bordo.">
+<meta name="twitter:image" content="assets/img/005-whatsapp-image-20261125-022434.jpg">
+<link rel="icon" type="image/png" href="assets/logo-sm.png">
+<link rel="apple-touch-icon" href="assets/logo-sm.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..800;1,9..144,300..800&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Playa Columpio Celestún",
+  "description": "Cooperativa de ecoturismo en Celestún, Yucatán. Recorrido de 2 horas en lancha por la ría con guías certificados.",
+  "telephone": "+52 999 177 8701",
+  "image": "assets/img/005-whatsapp-image-20261125-022434.jpg",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Celestún",
+    "addressRegion": "Yucatán",
+    "addressCountry": "MX"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Cuánto dura el recorrido?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El recorrido dura 2 horas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué incluye el recorrido?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Lancha con techo, chalecos y un guía que explica todo el recorrido. Pasas por parque ecológico, ruinas, playas vírgenes, flamencos, túnel de manglares, ojo de agua, isla de pájaros y baño maya."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Hay estacionamiento y baños?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí: estacionamiento, baños, regaderas y palapa frente al mar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué horario tienen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "De 6 AM a 5 PM."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Los guías están certificados?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, son guías certificados con libreta de capitán, registrados en capitanía de puerto."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Escríbenos por WhatsApp y te compartimos las tarifas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Dónde están?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "En Celestún, Yucatán, en Playa Columpio."
+      }
+    }
+  ]
+}
+</script>
+<script src="script.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Saltar al contenido</a>
+
+<!-- ============ CARGADOR ============ -->
+<div id="loader" class="loader" role="status" aria-live="polite" aria-label="Cargando la página">
+  <div class="loader__core">
+    <div class="loader__ring">
+      <i class="pulse"></i><i class="pulse"></i><i class="pulse"></i>
+      <svg viewBox="0 0 200 200" aria-hidden="true">
+        <defs>
+          <linearGradient id="lgRing" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#F2677A"/><stop offset="1" stop-color="#1FA3B0"/>
+          </linearGradient>
+        </defs>
+        <circle cx="100" cy="100" r="84" fill="none" stroke="rgba(246,240,224,.14)" stroke-width="5"/>
+        <circle class="loader__arc" cx="100" cy="100" r="84" fill="none" stroke="url(#lgRing)" stroke-width="5" stroke-linecap="round" transform="rotate(-90 100 100)"/>
+      </svg>
+      <img src="assets/logo-sm.png" width="132" height="132" alt="Sello de la cooperativa de ecoturismo de Celestún">
+    </div>
+    <p class="loader__txt">Zarpando hacia la ría…</p>
+    <p class="loader__pct"><span id="pct">0</span>%</p>
+  </div>
+  <div class="loader__sea" aria-hidden="true">
+    <svg viewBox="0 0 2400 120" preserveAspectRatio="none"><path d="M0 60Q150 20 300 60T600 60T900 60T1200 60T1500 60T1800 60T2100 60T2400 60V120H0Z" fill="#1FA3B0"/></svg>
+  </div>
+</div>
+
+<!-- Barra de progreso del recorrido -->
+<div class="bar" id="bar" aria-hidden="true">
+  <div class="bar__fill"></div>
+  <svg class="bar__boat" viewBox="0 0 36 20"><path d="M2 12h32l-6 7H8z" fill="#17703A"/><rect x="9" y="4" width="18" height="5" rx="2.5" fill="#fff"/><path d="M12 9v3M24 9v3" stroke="#17703A" stroke-width="1.5"/></svg>
+</div>
+
+<!-- ============ HEADER ============ -->
+<header class="hdr" id="hdr">
+  <div class="hdr__in">
+    <a class="brand" href="#inicio" aria-label="Playa Columpio Celestún, ir al inicio">
+      <img src="assets/logo-sm.png" width="44" height="44" alt="Sello de la cooperativa de ecoturismo de Celestún">
+      <span class="brand__name">Playa Columpio <span>Celestún</span></span>
+    </a>
+    <nav class="nav" aria-label="Principal">
+      <a href="#ruta">Ruta</a>
+      <a href="#a-bordo">A bordo</a>
+      <a href="#galeria">Galería</a>
+      <a href="#guias">Guías</a>
+      <a href="#preguntas">Preguntas</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <a class="btn btn--primary btn--sm" href="#contacto" data-wa="Hola, quiero ir al recorrido en lancha por la ría de Celestún. ¿Me ayudan con la información?">Quiero ir</a>
+    <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="menu"><span></span><span></span><span class="sr">Abrir menú</span></button>
+  </div>
+</header>
+
+<div class="menu" id="menu" aria-hidden="true">
+  <nav aria-label="Menú móvil">
+    <a href="#ruta" style="--i:0">Ruta</a>
+    <a href="#a-bordo" style="--i:1">A bordo</a>
+    <a href="#galeria" style="--i:2">Galería</a>
+    <a href="#guias" style="--i:3">Guías</a>
+    <a href="#preguntas" style="--i:4">Preguntas</a>
+    <a href="#contacto" style="--i:5">Contacto</a>
+  </nav>
+  <a class="btn btn--primary" style="--i:6" href="#contacto" data-wa="Hola, quiero ir al recorrido en lancha por la ría de Celestún. ¿Me ayudan con la información?">Quiero ir</a>
+</div>
+
+<template id="tpl-flam"><svg viewBox="0 0 100 140" aria-hidden="true" focusable="false"><g fill="none" stroke="#E0506A" stroke-width="3" stroke-linecap="round"><path d="M52 92V132M60 92L62 122L70 134"/></g><path d="M28 78C28 64 44 58 60 62C72 65 82 72 80 82C78 94 60 98 46 96C34 94 28 88 28 78Z" fill="#F2677A"/><path d="M26 76C16 80 14 92 22 100C34 98 44 90 46 80Z" fill="#E0506A"/><g class="neck"><path d="M72 66C92 58 94 38 80 30C70 24 66 14 74 10" fill="none" stroke="#F2677A" stroke-width="7" stroke-linecap="round"/><circle cx="75" cy="10" r="5.5" fill="#F2677A"/><path d="M78 8L92 14L79 15Z" fill="#2B1218"/></g></svg></template>
+
+<main id="main">
+
+<!-- ============ S1 · HERO ============ -->
+<section class="hero" id="inicio" data-prog="hero" aria-labelledby="h1">
+  <div class="hero__sky" aria-hidden="true">
+    <div class="sun"><i class="sun__core"></i></div>
+    <i class="cloud cloud--1"></i><i class="cloud cloud--2"></i><i class="cloud cloud--3"></i>
+    <span class="gull" style="--t:26s;--dl:-4s;--y:14%"><svg viewBox="0 0 40 16"><path d="M2 12Q12-2 20 10Q28-2 38 12" fill="none" stroke="#0A3324" stroke-width="2.4" stroke-linecap="round"/></svg></span>
+    <span class="gull" style="--t:34s;--dl:-16s;--y:24%;--s:.8"><svg viewBox="0 0 40 16"><path d="M2 12Q12-2 20 10Q28-2 38 12" fill="none" stroke="#0A3324" stroke-width="2.4" stroke-linecap="round"/></svg></span>
+    <span class="gull" style="--t:22s;--dl:-9s;--y:8%;--s:.65"><svg viewBox="0 0 40 16"><path d="M2 12Q12-2 20 10Q28-2 38 12" fill="none" stroke="#0A3324" stroke-width="2.4" stroke-linecap="round"/></svg></span>
+    <span class="gull" style="--t:30s;--dl:-22s;--y:19%;--s:1.1"><svg viewBox="0 0 40 16"><path d="M2 12Q12-2 20 10Q28-2 38 12" fill="none" stroke="#0A3324" stroke-width="2.4" stroke-linecap="round"/></svg></span>
+  </div>
+
+  <div class="hero__water" aria-hidden="true">
+    <svg class="wave wave--1" viewBox="0 0 2400 120" preserveAspectRatio="none"><path d="M0 60Q150 20 300 60T600 60T900 60T1200 60T1500 60T1800 60T2100 60T2400 60V120H0Z" fill="rgba(31,163,176,.95)"/></svg>
+    <svg class="wave wave--2" viewBox="0 0 2400 120" preserveAspectRatio="none"><path d="M0 60Q150 100 300 60T600 60T900 60T1200 60T1500 60T1800 60T2100 60T2400 60V120H0Z" fill="#17909F"/></svg>
+    <svg class="wave wave--3" viewBox="0 0 2400 120" preserveAspectRatio="none"><path d="M0 60Q150 30 300 60T600 60T900 60T1200 60T1500 60T1800 60T2100 60T2400 60V120H0Z" fill="#0E6F7C"/></svg>
+  </div>
+  <canvas id="brillos" class="hero__canvas" aria-hidden="true"></canvas>
+  <div class="hero__flams" aria-hidden="true">
+    <span class="flam" data-flam style="--l:6%;--w:34px;--dl:0s"></span>
+    <span class="flam" data-flam style="--l:24%;--w:46px;--dl:-2s"></span>
+    <span class="flam" data-flam style="--l:78%;--w:40px;--dl:-3.5s"></span>
+  </div>
+
+  <div class="container hero__grid">
+    <div class="hero__text">
+      <p class="kicker" data-reveal>Cooperativa de ecoturismo · Celestún, Yucatán</p>
+      <h1 id="h1" class="hero__h1" aria-label="La ría de Celestún se vive en lancha.">
+        <span class="w" aria-hidden="true"><span style="--i:0">La</span></span>
+        <span class="w" aria-hidden="true"><span style="--i:1">ría</span></span>
+        <span class="w" aria-hidden="true"><span style="--i:2">de</span></span>
+        <span class="w" aria-hidden="true"><span style="--i:3">Celestún</span></span>
+        <span class="w" aria-hidden="true"><span style="--i:4">se</span></span>
+        <span class="w" aria-hidden="true"><span style="--i:5">vive</span></span>
+        <span class="w w--grad" aria-hidden="true"><span style="--i:6">en</span></span>
+        <span class="w w--grad" aria-hidden="true"><span style="--i:7">lancha.</span></span>
+      </h1>
+      <p class="hero__sub" data-reveal style="--d:3">Dos horas entre manglares, playas vírgenes, flamencos y un ojo de agua, con guía certificado a bordo. Empiezas en Playa Columpio, frente al mar.</p>
+      <div class="hero__cta" data-reveal style="--d:4">
+        <a class="btn btn--primary" href="#contacto" data-wa="Hola, quiero información para hacer el recorrido en lancha por la ría de Celestún.">Quiero mi recorrido
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn--ghost" href="#ruta">Ver la ruta
+          <svg class="arrow-down" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg></a>
+      </div>
+      <ul class="chips" data-reveal style="--d:5">
+        <li>Guías certificados</li>
+        <li>Lanchas con techo y chalecos</li>
+        <li>Horario 6 AM – 5 PM</li>
+      </ul>
+    </div>
+
+    <div class="cluster" id="cluster" data-reveal style="--d:2">
+      <div class="cluster__in">
+        <div class="arc arc--c" style="--dz:1;--sp:46;--tz:40px"><div class="arc__p"><figure class="arc__f" style="--fl:8s;--fd:0s">
+          <img src="assets/img/005-whatsapp-image-20261125-022434.jpg" width="1200" height="1600" alt="Columpio en forma de corazón con flamencos rosas bajo un cielo azul intenso en Playa Columpio" fetchpriority="high" style="object-position:50% 40%">
+        </figure></div></div>
+        <div class="arc arc--l" style="--dz:.6;--sp:92;--tz:0px"><div class="arc__p"><figure class="arc__f" style="--fl:7s;--fd:-2s">
+          <img src="assets/img/003-whatsapp-image-20261125-022433.jpg" width="1200" height="1600" alt="Playa con letrero de colores con el nombre de Celestún y una lancha al fondo" style="object-position:50% 62%">
+        </figure></div></div>
+        <div class="arc arc--r" style="--dz:.8;--sp:70;--tz:20px"><div class="arc__p"><figure class="arc__f" style="--fl:9s;--fd:-4s">
+          <img src="assets/img/006-whatsapp-image-20261125-022435.jpg" width="1200" height="1600" alt="Arco rosa en forma de corazón con flamencos a la entrada del manglar" style="object-position:50% 45%">
+        </figure></div></div>
+        <div class="badge">
+          <svg class="badge__ring" viewBox="0 0 200 200" aria-hidden="true">
+            <defs><path id="circ" d="M100 100 m-78 0 a78 78 0 1 1 156 0 a78 78 0 1 1 -156 0"/></defs>
+            <text><textPath href="#circ" textLength="484" lengthAdjust="spacing">RECORRIDO DE 2 HORAS · 6 AM – 5 PM · CELESTÚN, YUCATÁN ·</textPath></text>
+          </svg>
+          <img class="badge__logo" src="assets/logo-sm.png" width="72" height="72" alt="Sello de la cooperativa de ecoturismo de Celestún">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a class="scroll-ind" href="#recorrido" aria-label="Bajar para ver el recorrido"><i></i></a>
+</section>
+
+<!-- ============ S2 · CINTA DE RUTA ============ -->
+<section class="marquee" aria-hidden="true">
+  <div class="band band--coral" data-band>
+    <div class="band__track">
+      <div class="band__grp"><span>Manglares</span><i>✦</i><span>Ruinas</span><i>✦</i><span>Playas vírgenes</span><i>✦</i><span>Ría y mar</span><i>✦</i><span>Flamencos</span><i>✦</i><span>Túnel de manglares</span><i>✦</i><span>Ojo de agua</span><i>✦</i><span>Isla de pájaros</span><i>✦</i><span>Baño maya</span><i>✦</i></div>
+      <div class="band__grp"><span>Manglares</span><i>✦</i><span>Ruinas</span><i>✦</i><span>Playas vírgenes</span><i>✦</i><span>Ría y mar</span><i>✦</i><span>Flamencos</span><i>✦</i><span>Túnel de manglares</span><i>✦</i><span>Ojo de agua</span><i>✦</i><span>Isla de pájaros</span><i>✦</i><span>Baño maya</span><i>✦</i></div>
+    </div>
+  </div>
+  <div class="band band--verde" data-band>
+    <div class="band__track band__track--rev">
+      <div class="band__grp"><span>Baño maya</span><i>✦</i><span>Isla de pájaros</span><i>✦</i><span>Ojo de agua</span><i>✦</i><span>Túnel de manglares</span><i>✦</i><span>Flamencos</span><i>✦</i><span>Ría y mar</span><i>✦</i><span>Playas vírgenes</span><i>✦</i><span>Ruinas</span><i>✦</i><span>Manglares</span><i>✦</i></div>
+      <div class="band__grp"><span>Baño maya</span><i>✦</i><span>Isla de pájaros</span><i>✦</i><span>Ojo de agua</span><i>✦</i><span>Túnel de manglares</span><i>✦</i><span>Flamencos</span><i>✦</i><span>Ría y mar</span><i>✦</i><span>Playas vírgenes</span><i>✦</i><span>Ruinas</span><i>✦</i><span>Manglares</span><i>✦</i></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ S3 · MANIFIESTO ============ -->
+<section class="manif" id="recorrido" data-prog="pass" aria-labelledby="manif-k">
+  <div class="container manif__grid">
+    <div class="manif__text">
+      <p class="kicker" id="manif-k" data-reveal>El recorrido</p>
+      <p class="manif__big" id="manif-big" data-words>Hay lugares que se visitan. Otros se navegan. En Celestún la ría se abre entre manglares, el mar se vuelve turquesa y los flamencos pintan el horizonte de rosa.</p>
+      <div class="manif__cta" data-reveal>
+        <a class="btn btn--ghost" href="#ruta">Quiero ver la ruta completa
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+    </div>
+    <div class="facts">
+      <div class="fact" data-reveal style="--d:1"><b class="fact__n"><span data-count="2">2</span></b><span class="fact__l">horas de recorrido</span></div>
+      <div class="fact" data-reveal style="--d:2"><b class="fact__n"><span data-count="9">9</span></b><span class="fact__l">paradas entre manglar, mar y aves</span></div>
+      <div class="fact fact--shimmer" data-reveal style="--d:3"><b class="fact__n fact__n--sm">6 AM – 5 PM</b><span class="fact__l">horario de atención</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ S4 · LA RUTA ============ -->
+<section class="ruta" id="ruta" data-prog="pin" aria-labelledby="ruta-t">
+  <div class="stage">
+    <div class="container ruta__head">
+      <p class="kicker" data-reveal>La ruta</p>
+      <h2 id="ruta-t" data-reveal style="--d:1">Las 2 horas, parada por parada</h2>
+      <p class="ruta__sub" data-reveal style="--d:2">Baja con el scroll y navega la ruta. Cada parada la explica tu guía desde la lancha.</p>
+    </div>
+
+    <div class="container ruta__grid">
+      <div class="chart" aria-hidden="true">
+        <svg viewBox="0 0 1000 600" id="chart" preserveAspectRatio="xMidYMid meet">
+          <defs>
+            <radialGradient id="gPaper" cx=".5" cy=".5" r=".75"><stop offset="0" stop-color="#F7EDD0"/><stop offset="1" stop-color="#EAD9AE"/></radialGradient>
+            <linearGradient id="gSea" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8FD9DF" stop-opacity=".55"/><stop offset="1" stop-color="#1FA3B0" stop-opacity=".35"/></linearGradient>
+          </defs>
+          <rect width="1000" height="600" rx="26" fill="url(#gPaper)"/>
+          <path d="M0 520C120 500 150 560 280 540C380 525 430 590 560 575C700 560 820 600 1000 560V600H0Z" fill="url(#gSea)"/>
+          <path d="M600 0C640 70 720 60 760 120C800 175 900 150 1000 190V0Z" fill="#CBD9A8" opacity=".55"/>
+          <g fill="none" stroke="#C9973F" stroke-opacity=".28" stroke-width="1.4">
+            <path d="M-10 140C120 90 220 180 340 130S560 60 700 110"/>
+            <path d="M-10 200C110 150 230 240 350 190S570 120 710 170"/>
+            <path d="M-10 260C100 215 240 300 360 250S580 185 720 232"/>
+            <path d="M240 600C300 520 420 560 480 480S620 400 700 330"/>
+            <path d="M300 600C360 540 470 580 520 520S650 440 740 380"/>
+            <ellipse cx="820" cy="470" rx="110" ry="60"/><ellipse cx="820" cy="470" rx="70" ry="36"/><ellipse cx="820" cy="470" rx="30" ry="14"/>
+          </g>
+          <g fill="#1FA3B0" fill-opacity=".5" font-size="22" font-family="Manrope,sans-serif">
+            <text x="120" y="560">✦</text><text x="420" y="580">✦</text><text x="640" y="540">✦</text><text x="900" y="560">✦</text><text x="520" y="120">✦</text><text x="230" y="250">✦</text>
+          </g>
+          <g class="rose" transform="translate(110 100)">
+            <g class="rose__in">
+              <circle r="52" fill="none" stroke="#0A3324" stroke-opacity=".35" stroke-width="1.5"/>
+              <circle r="38" fill="none" stroke="#0A3324" stroke-opacity=".2" stroke-dasharray="3 5"/>
+              <path d="M0-50L9-9L50 0L9 9L0 50L-9 9L-50 0L-9-9Z" fill="#17703A" fill-opacity=".85"/>
+              <path d="M0-50L9-9L0 0Z M0 50L-9 9L0 0Z M50 0L9 9L0 0Z M-50 0L-9-9L0 0Z" fill="#F2677A"/>
+              <path d="M35-35L5-5M-35-35L-5-5M35 35L5 5M-35 35L-5 5" stroke="#C9973F" stroke-width="2"/>
+            </g>
+            <text y="-62" text-anchor="middle" font-size="18" font-weight="800" fill="#0A3324" font-family="Manrope,sans-serif">N</text>
+          </g>
+          <path id="route-base" d="M50 470 C 170 470, 190 320, 300 320 S 430 500, 540 430 S 650 200, 760 250 S 880 400, 950 140" fill="none" stroke="#F2677A" stroke-opacity=".4" stroke-width="4" stroke-dasharray="3 12" stroke-linecap="round"/>
+          <path id="route-prog" d="M50 470 C 170 470, 190 320, 300 320 S 430 500, 540 430 S 650 200, 760 250 S 880 400, 950 140" fill="none" stroke="#1FA3B0" stroke-width="5" stroke-linecap="round"/>
+          <g id="nodes"></g>
+          <g id="wake">
+            <circle r="3.5" fill="#fff" opacity=".7"/><circle r="3" fill="#fff" opacity=".6"/><circle r="2.6" fill="#fff" opacity=".5"/><circle r="2.2" fill="#fff" opacity=".4"/><circle r="1.8" fill="#fff" opacity=".3"/><circle r="1.4" fill="#fff" opacity=".2"/>
+          </g>
+          <g id="boat" transform="translate(50 470)">
+            <g class="boat__bob">
+              <path d="M-27 4H27L19 17H-19Z" fill="#17703A"/>
+              <rect x="-15" y="-11" width="30" height="7" rx="3.5" fill="#fff" stroke="#0A3324" stroke-width="1.2"/>
+              <path d="M-11 -4V4M11 -4V4" stroke="#0A3324" stroke-width="1.6"/>
+              <path d="M-27 9H27" stroke="#F2677A" stroke-width="2"/>
+            </g>
+          </g>
+          <g id="nlabel" opacity="0"><rect rx="14" ry="14" height="30" fill="#0A3324"/><text font-size="17" font-weight="800" fill="#F6F0E0" font-family="Manrope,sans-serif" y="20" x="14"></text></g>
+        </svg>
+      </div>
+
+      <div class="ruta__side">
+        <div class="segs" id="segs" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        <div class="stops" id="stops">
+          <div class="rail" aria-hidden="true"><i class="rail__fill"></i><svg class="rail__boat" viewBox="0 0 36 20"><path d="M2 12h32l-6 7H8z" fill="#17703A"/><rect x="9" y="4" width="18" height="5" rx="2.5" fill="#fff" stroke="#0A3324"/></svg></div>
+          <p class="pill" id="pill" aria-hidden="true">Parada <b>1</b> de 9</p>
+
+          <article class="stop" aria-labelledby="st0">
+            <div class="stop__vis" data-reveal><img src="assets/img/008-whatsapp-image-20261125-022435.jpg" width="1200" height="1600" loading="lazy" alt="Sendero bajo un túnel de manglar con corazones y flamencos de adorno" style="object-position:50% 55%"></div>
+            <div class="stop__body" data-reveal style="--d:1"><div class="stop__top"><span class="stop__num">01</span><h3 id="st0">Parque ecológico en el manglar</h3></div>
+              <p>Empiezas a pie, dentro del manglar. Con un poco de suerte te cruzas con tejones, cocodrilos y tortugas en su hábitat.</p></div>
+          </article>
+
+          <article class="stop" aria-labelledby="st1">
+            <div class="stop__vis scene scene--ruinas" data-reveal>
+              <svg viewBox="0 0 320 200" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Arcos de piedra dorada al atardecer con hiedra meciéndose">
+                <defs><linearGradient id="gRu" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8FD9DF"/><stop offset=".62" stop-color="#F7CDA3"/><stop offset="1" stop-color="#F2677A"/></linearGradient></defs>
+                <rect width="320" height="200" fill="url(#gRu)"/>
+                <circle cx="248" cy="62" r="24" fill="#FFF3C4"/>
+                <g fill="#C9973F"><rect x="28" y="92" width="76" height="76" rx="10"/><rect x="122" y="76" width="76" height="92" rx="10"/><rect x="216" y="100" width="76" height="68" rx="10"/></g>
+                <g fill="#F7CDA3"><path d="M44 168V130a22 22 0 0 1 44 0V168Z"/><path d="M138 168V112a22 22 0 0 1 44 0V168Z"/><path d="M232 168V136a22 22 0 0 1 44 0V168Z"/></g>
+                <g fill="none" stroke="#B1832F" stroke-width="2" opacity=".7"><path d="M28 112H104M28 134H44M88 134H104M122 96H198M122 120H138M182 120H198M216 120H292"/></g>
+                <rect y="166" width="320" height="34" fill="#0A3324"/>
+                <g class="ivy" fill="none" stroke="#17703A" stroke-width="3" stroke-linecap="round">
+                  <path style="transform-origin:46px 94px" d="M46 94q-6 18 2 32q5 9-2 20"/>
+                  <path style="transform-origin:100px 94px" d="M100 94q5 16-2 28q-4 8 2 18"/>
+                  <path style="transform-origin:140px 78px" d="M140 78q-6 16 2 30q4 8-2 16"/>
+                  <path style="transform-origin:196px 78px" d="M196 78q6 20-1 34q-3 8 1 16"/>
+                  <path style="transform-origin:236px 102px" d="M236 102q-5 14 2 24q4 7-1 14"/>
+                </g>
+              </svg>
+            </div>
+            <div class="stop__body" data-reveal style="--d:1"><div class="stop__top"><span class="stop__num">02</span><h3 id="st1">Ruinas</h3></div>
+              <p>Subes a la lancha y llegas a unas ruinas que tu guía te cuenta desde el agua.</p></div>
+          </article>
+
+          <article class="stop" aria-labelledby="st2">
+            <div class="stop__vis" data-reveal><img src="assets/img/003-whatsapp-image-20261125-022433.jpg" width="1200" height="1600" loading="lazy" alt="Playa de arena clara con letrero de colores con el nombre de Celestún y el mar abierto" style="object-position:50% 62%"></div>
+            <div class="stop__body" data-reveal style="--d:1"><div class="stop__top"><span class="stop__num">03</span><h3 id="st2">Playas vírgenes</h3></div>
+              <p>Arena blanca, mar abierto y cero prisa.</p></div>
+          </article>
+
+          <article class="stop" aria-labelledby="st3">
+            <div class="stop__vis" data-reveal><img src="assets/img/013-whatsapp-image-20261125-022438.jpg" width="1200" height="1600" loading="lazy" alt="El agua turquesa del mar y el agua color té de la ría encontrándose en una frontera visible" style="object-position:50% 62%"></div>
+            <div class="stop__body" data-reveal style="--d:1"><div class="stop__top"><span class="stop__num">04</span><h3 id="st3">La ría y el mar</h3></div>
+              <p>Aquí se ve a simple vista: el agua de la ría y la del mar se encuentran, cada una con su color. Tu guía te explica por qué.</p></div>
+          </article>
+
+          <article class="stop" aria-labelledby="st4">
+            <div class="stop__vis" data-reveal><img src="assets/img/015-whatsapp-image-20261125-022443.jpg" width="1200" height="1600" loading="lazy" alt="Cientos de flamencos rosas caminando en el agua baja frente al manglar" style="object-position:50% 49%"></div>
+            <div class="stop__body" data-reveal style="--d:1"><div class="stop__top"><span class="stop__num">05</span><h3 id="st4">Flamencos</h3></div>
+              <p>Bandadas rosadas caminando sobre el agua. La parada que todos quieren fotografiar.</p></div>
+          </article>
+
+          <article class="stop" aria-labelledby="st5">
+            <div class="stop__vis" data-reveal><img src="assets/img/010-whatsapp-image-20261125-022436.jpg" width="1200" height="1600" loading="lazy" alt="Interior de una lancha con techo verde navegando por el canal de manglar" style="object-position:50% 40%"></div>
+            <div class="stop__body" data-reveal style="--d:1"><div class="stop__top"><span class="stop__num">06</span><h3 id="st5">Túnel de manglares</h3></div>
+              <p>La lancha se desliza bajo un techo verde de ramas y raíces. Silencio, sombra y reflejos.</p></div>
+          </article>
+
+          <article class="stop" aria-labelledby="st6">
+            <div class="stop__vis scene scene--ojo" data-reveal role="img" aria-label="Ondas turquesa que se expanden desde un ojo de agua">
+              <i class="ring"></i><i class="ring" style="--d:1"></i><i class="ring" style="--d:2"></i><i class="ring" style="--d:3"></i>
+              <i class="spark" style="--x:22%;--y:30%"></i><i class="spark" style="--x:70%;--y:24%;--d:.6s"></i><i class="spark" style="--x:58%;--y:70%;--d:1.2s"></i><i class="spark" style="--x:30%;--y:68%;--d:1.8s"></i>
+            </div>
+            <div class="stop__body" data-reveal style="--d:1"><div class="stop__top"><span class="stop__num">07</span><h3 id="st6">Ojo de agua</h3></div>
+              <p>Un ojo de agua en plena ría para detenerte, mirar y respirar.</p></div>
+          </article>
+
+          <article class="stop" aria-labelledby="st7">
+            <div class="stop__vis scene scene--isla" data-reveal>
+              <svg viewBox="0 0 320 200" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Isla verde rodeada de aves en vuelo">
+                <defs><linearGradient id="gIs" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#CFEFF7"/><stop offset=".55" stop-color="#8FD9DF"/><stop offset=".56" stop-color="#1FA3B0"/><stop offset="1" stop-color="#0E6F7C"/></linearGradient></defs>
+                <rect width="320" height="200" fill="url(#gIs)"/>
+                <ellipse cx="160" cy="124" rx="74" ry="14" fill="#E4D5A8"/>
+                <ellipse cx="160" cy="116" rx="62" ry="22" fill="#17703A"/>
+                <circle cx="130" cy="104" r="16" fill="#0A3324"/><circle cx="160" cy="98" r="20" fill="#17703A" stroke="#0A3324" stroke-width="2"/><circle cx="190" cy="106" r="15" fill="#0A3324"/>
+                <path d="M96 140q64 12 128 0" fill="none" stroke="#fff" stroke-opacity=".5" stroke-width="2"/>
+                <g transform="translate(160 92)">
+                <g class="orb o1" fill="none" stroke="#0A3324" stroke-width="1.8" stroke-linecap="round"><path transform="translate(62 0)" d="M-6 0Q-3-5 0 0Q3-5 6 0"/><path transform="translate(-62 0)" d="M-6 0Q-3-5 0 0Q3-5 6 0"/><path transform="translate(0 -30)" d="M-6 0Q-3-5 0 0Q3-5 6 0"/></g>
+                <g class="orb o2" fill="none" stroke="#0A3324" stroke-width="1.8" stroke-linecap="round"><path transform="translate(88 0)" d="M-6 0Q-3-5 0 0Q3-5 6 0"/><path transform="translate(-88 0)" d="M-6 0Q-3-5 0 0Q3-5 6 0"/><path transform="translate(0 40)" d="M-6 0Q-3-5 0 0Q3-5 6 0"/></g>
+                <g class="orb o3" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round"><path transform="translate(112 0)" d="M-6 0Q-3-5 0 0Q3-5 6 0"/><path transform="translate(-30 -50)" d="M-6 0Q-3-5 0 0Q3-5 6 0"/><path transform="translate(-100 20)" d="M-6 0Q-3-5 0 0Q3-5 6 0"/></g>
+                <g class="orb o4" fill="none" stroke="#F2677A" stroke-width="1.8" stroke-linecap="round"><path transform="translate(75 -22)" d="M-6 0Q-3-5 0 0Q3-5 6 0"/><path transform="translate(-75 24)" d="M-6 0Q-3-5 0 0Q3-5 6 0"/><path transform="translate(20 -58)" d="M-6 0Q-3-5 0 0Q3-5 6 0"/></g>
+                <g class="orb o5" fill="none" stroke="#0A3324" stroke-width="1.8" stroke-linecap="round"><path transform="translate(130 -10)" d="M-6 0Q-3-5 0 0Q3-5 6 0"/><path transform="translate(-125 8)" d="M-6 0Q-3-5 0 0Q3-5 6 0"/></g>
+                </g>
+              </svg>
+            </div>
+            <div class="stop__body" data-reveal style="--d:1"><div class="stop__top"><span class="stop__num">08</span><h3 id="st7">Isla de pájaros</h3></div>
+              <p>Una isla entera llena de aves, vista desde el agua y sin molestarlas.</p></div>
+          </article>
+
+          <article class="stop" aria-labelledby="st8">
+            <div class="stop__vis scene scene--bano" data-reveal role="img" aria-label="Agua clara con luces que ondulan y burbujas que suben">
+              <i class="bub" style="--x:12%;--s:10px;--t:6s;--d:0s"></i><i class="bub" style="--x:28%;--s:6px;--t:5s;--d:-2s"></i><i class="bub" style="--x:46%;--s:14px;--t:7s;--d:-1s"></i><i class="bub" style="--x:63%;--s:8px;--t:5.5s;--d:-3s"></i><i class="bub" style="--x:78%;--s:12px;--t:6.5s;--d:-4s"></i><i class="bub" style="--x:90%;--s:6px;--t:4.5s;--d:-1.5s"></i>
+            </div>
+            <div class="stop__body" data-reveal style="--d:1"><div class="stop__top"><span class="stop__num">09</span><h3 id="st8">Baño maya</h3></div>
+              <p>Cierras el viaje con un baño maya: el mejor final para dos horas de ría.</p></div>
+          </article>
+        </div>
+
+        <div class="ruta__end" id="rutaEnd">
+          <a class="btn btn--primary" href="#contacto" data-wa="Hola, quiero vivir la ruta completa de 2 horas por la ría de Celestún. ¿Qué día hay lugar?">Quiero vivir esta ruta
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <p class="ruta__note">La fauna es libre: ningún recorrido es igual a otro.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ S5 · PLAYA COLUMPIO ============ -->
+<section class="col" id="columpio" data-prog="pin" aria-labelledby="col-t">
+  <div class="col__stage">
+    <span class="col__word" aria-hidden="true">COLUMPIO</span>
+    <div class="col__fig">
+      <div class="clip__in"><img src="assets/img/005-whatsapp-image-20261125-022434.jpg" width="1200" height="1600" loading="lazy" alt="Columpio en forma de corazón con flamencos rosas y el mar de fondo en Playa Columpio" style="object-position:50% 42%"></div>
+    </div>
+    <img class="col__chip col__chip--l" src="assets/img/004-whatsapp-image-20261125-022434.jpg" width="180" height="180" loading="lazy" alt="Columpio de corazón y flamencos rosas al contraluz">
+    <img class="col__chip col__chip--r" src="assets/img/003-whatsapp-image-20261125-022433.jpg" width="180" height="180" loading="lazy" alt="Letrero de colores con el nombre de Celestún frente al mar">
+    <div class="col__text">
+      <p class="kicker">Playa Columpio</p>
+      <h2 id="col-t">El corazón que se mece frente al mar.</h2>
+      <p>Letreros de colores, flamencos rosas y el mar de fondo: la foto de tu visita a Celestún empieza aquí.</p>
+      <a class="btn btn--primary" href="#contacto" data-wa="Hola, quiero mi foto en el columpio de Playa Columpio, en Celestún. ¿Cómo le hacemos?">Quiero mi foto en el columpio</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ S6 · A BORDO ============ -->
+<section class="bordo" id="a-bordo" aria-labelledby="bordo-t">
+  <i class="blob blob--t" aria-hidden="true"></i><i class="blob blob--c" aria-hidden="true"></i>
+  <div class="container">
+    <p class="kicker kicker--inv" data-reveal>A bordo</p>
+    <h2 id="bordo-t" data-reveal style="--d:1">Todo lo que necesitas a bordo, <em>resuelto.</em></h2>
+    <div class="bento">
+      <article class="bcard bcard--a" data-reveal data-tilt style="--d:1">
+        <img class="kb" src="assets/img/010-whatsapp-image-20261125-022436.jpg" width="1200" height="1600" loading="lazy" alt="Interior de una lancha con techo verde navegando entre manglares" style="object-position:50% 50%">
+        <div class="bcard__shade"></div>
+        <span class="tag">Lanchas con techo</span>
+        <p class="bcard__cap">Sombra, brisa y la ría pasando a tu lado.</p>
+        <i class="glare"></i>
+      </article>
+      <article class="bcard bcard--b" data-reveal data-tilt style="--d:2">
+        <svg class="bico bico--life" viewBox="0 0 64 64" aria-hidden="true"><g class="life"><circle cx="32" cy="32" r="22" fill="none" stroke="#F6F0E0" stroke-width="10" stroke-dasharray="34.6 34.6" stroke-dashoffset="0"/><circle cx="32" cy="32" r="22" fill="none" stroke="#F2677A" stroke-width="10" stroke-dasharray="34.6 34.6" stroke-dashoffset="-34.6"/><circle cx="32" cy="32" r="22" fill="none" stroke="#0A3324" stroke-opacity=".25" stroke-width="1.2" transform="scale(1)"/></g></svg>
+        <h3>Chalecos</h3>
+        <p>Cada lancha lleva chalecos. Tú solo disfruta.</p>
+        <i class="glare"></i>
+      </article>
+      <article class="bcard bcard--c" data-reveal data-tilt style="--d:3">
+        <div class="bico bico--voice" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+        <h3>Guía a bordo</h3>
+        <p>La explicación se da desde la lancha, parada por parada.</p>
+        <i class="glare"></i>
+      </article>
+      <article class="bcard bcard--d" data-reveal data-tilt style="--d:4">
+        <svg class="bico bico--clock" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="26" fill="none" stroke="#8FD9DF" stroke-width="3"/><g stroke="#F6F0E0" stroke-width="2.2" stroke-linecap="round"><path d="M32 10v5M54 32h-5M32 54v-5M10 32h5"/></g><path class="hand" d="M32 32V16" stroke="#F2677A" stroke-width="3.4" stroke-linecap="round"/><circle cx="32" cy="32" r="3" fill="#E7B955"/></svg>
+        <h3><span class="big">2</span> horas</h3>
+        <p>De ría, mar y aves.</p>
+        <i class="glare"></i>
+      </article>
+      <article class="bcard bcard--e" data-reveal data-tilt style="--d:5">
+        <h3>Guías certificados, con libreta de capitán</h3>
+        <a class="link" href="#guias">Conócelos <span aria-hidden="true">→</span></a>
+        <i class="glare"></i>
+      </article>
+    </div>
+    <div class="bordo__cta" data-reveal>
+      <a class="btn btn--primary" href="#contacto" data-wa="Hola, quiero subir a la lancha. ¿Me comparten horarios y cómo reservar?">Quiero subir a la lancha</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ S7 · GALERÍA ============ -->
+<section class="gal" id="galeria" data-prog="pin" aria-labelledby="gal-t">
+  <div class="gal__stage">
+    <div class="gal__scroller" id="galScroller">
+      <div class="gal__track" id="galTrack">
+        <div class="gal__intro">
+          <p class="kicker">Galería</p>
+          <h2 id="gal-t">Postales de Celestún</h2>
+          <p>Así se ve el lugar donde empieza el recorrido.</p>
+          <p class="gal__hint" aria-hidden="true">Desliza <span>→</span></p>
+        </div>
+
+        <figure class="gcard gcard--arch" style="--ar:3/4;--k:1">
+          <button class="gcard__btn" type="button" data-i="0" aria-label="Ampliar foto 1: Arco rosa del manglar"><span class="gcard__frame"><img class="gcard__img" src="assets/img/006-whatsapp-image-20261125-022435.jpg" width="1200" height="1600" loading="lazy" alt="Arco rosa en forma de corazón con flamencos y delfines a la entrada del manglar" style="object-position:50% 45%"></span></button>
+          <figcaption><b>01 / 11</b> Arco rosa del manglar</figcaption>
+        </figure>
+        <figure class="gcard gcard--round" style="--ar:4/5;--k:.8">
+          <button class="gcard__btn" type="button" data-i="1" aria-label="Ampliar foto 2: Columpio al contraluz"><span class="gcard__frame"><img class="gcard__img" src="assets/img/004-whatsapp-image-20261125-022434.jpg" width="1200" height="1600" loading="lazy" alt="Columpio de corazón con flamencos rosas al contraluz" style="object-position:50% 50%"></span></button>
+          <figcaption><b>02 / 11</b> Columpio al contraluz</figcaption>
+        </figure>
+        <figure class="gcard gcard--arch" style="--ar:3/4;--k:.94">
+          <button class="gcard__btn" type="button" data-i="2" aria-label="Ampliar foto 3: Kayaks y flamencos"><span class="gcard__frame"><img class="gcard__img" src="assets/img/007-whatsapp-image-20261125-022435.jpg" width="1200" height="1600" loading="lazy" alt="Kayaks azules y flamencos decorativos a la entrada del manglar" style="object-position:50% 50%"></span></button>
+          <figcaption><b>03 / 11</b> Kayaks y flamencos</figcaption>
+        </figure>
+        <figure class="gcard gcard--round gcard--wide" style="--ar:3/2;--k:.72">
+          <button class="gcard__btn" type="button" data-i="3" aria-label="Ampliar foto 4: Muelle sobre agua color té"><span class="gcard__frame"><img class="gcard__img" src="assets/img/012-whatsapp-image-20261125-022437.jpg" width="1600" height="1067" loading="lazy" alt="Muelle de madera sobre agua color té entre manglares" style="object-position:50% 50%"></span></button>
+          <figcaption><b>04 / 11</b> Muelle entre manglares</figcaption>
+        </figure>
+        <figure class="gcard gcard--arch" style="--ar:9/14;--k:1">
+          <button class="gcard__btn" type="button" data-i="4" aria-label="Ampliar foto 5: En el muelle"><span class="gcard__frame"><img class="gcard__img" src="assets/img/009-whatsapp-image-20261125-022435.jpg" width="720" height="1280" loading="lazy" alt="Cuatro visitantes sonriendo en un muelle de madera junto al manglar" style="object-position:50% 45%"></span></button>
+          <figcaption><b>05 / 11</b> Sonrisas en el muelle</figcaption>
+        </figure>
+        <figure class="gcard gcard--round" style="--ar:4/5;--k:.82">
+          <button class="gcard__btn" type="button" data-i="5" aria-label="Ampliar foto 6: Sendero de manglar"><span class="gcard__frame"><img class="gcard__img" src="assets/img/008-whatsapp-image-20261125-022435.jpg" width="1200" height="1600" loading="lazy" alt="Sendero bajo un túnel de manglar con corazones y flamencos de adorno" style="object-position:50% 55%"></span></button>
+          <figcaption><b>06 / 11</b> Sendero de manglar</figcaption>
+        </figure>
+        <figure class="gcard gcard--arch" style="--ar:3/4;--k:.96">
+          <button class="gcard__btn" type="button" data-i="6" aria-label="Ampliar foto 7: Lancha en el canal"><span class="gcard__frame"><img class="gcard__img" src="assets/img/011-whatsapp-image-20261125-022437.jpg" width="1200" height="1600" loading="lazy" alt="Lancha con techo verde navegando por el canal de manglar" style="object-position:50% 50%"></span></button>
+          <figcaption><b>07 / 11</b> Lancha en el canal</figcaption>
+        </figure>
+        <figure class="gcard gcard--round" style="--ar:4/5;--k:.78">
+          <button class="gcard__btn" type="button" data-i="7" aria-label="Ampliar foto 8: Playa con letrero de colores"><span class="gcard__frame"><img class="gcard__img" src="assets/img/003-whatsapp-image-20261125-022433.jpg" width="1200" height="1600" loading="lazy" alt="Playa con letrero de colores con el nombre de Celestún y una lancha al fondo" style="object-position:50% 62%"></span></button>
+          <figcaption><b>08 / 11</b> Letras de colores frente al mar</figcaption>
+        </figure>
+        <figure class="gcard gcard--arch" style="--ar:3/4;--k:1">
+          <button class="gcard__btn" type="button" data-i="8" aria-label="Ampliar foto 9: Donde se encuentran ría y mar"><span class="gcard__frame"><img class="gcard__img" src="assets/img/013-whatsapp-image-20261125-022438.jpg" width="1200" height="1600" loading="lazy" alt="El agua de la ría y la del mar encontrándose, cada una con su color" style="object-position:50% 62%"></span></button>
+          <figcaption><b>09 / 11</b> Donde se encuentran ría y mar</figcaption>
+        </figure>
+        <figure class="gcard gcard--round" style="--ar:4/5;--k:.84">
+          <button class="gcard__btn" type="button" data-i="9" aria-label="Ampliar foto 10: Flamencos y aves"><span class="gcard__frame"><img class="gcard__img" src="assets/img/014-whatsapp-image-20261125-022443.jpg" width="1200" height="1600" loading="lazy" alt="Bandada de flamencos rosas y aves de patas largas en el agua baja de la ría" style="object-position:50% 58%"></span></button>
+          <figcaption><b>10 / 11</b> Flamencos y aves de la ría</figcaption>
+        </figure>
+        <figure class="gcard gcard--arch" style="--ar:3/4;--k:.92">
+          <button class="gcard__btn" type="button" data-i="10" aria-label="Ampliar foto 11: Cientos de flamencos"><span class="gcard__frame"><img class="gcard__img" src="assets/img/015-whatsapp-image-20261125-022443.jpg" width="1200" height="1600" loading="lazy" alt="Cientos de flamencos rosas frente al manglar" style="object-position:50% 49%"></span></button>
+          <figcaption><b>11 / 11</b> Cientos de flamencos</figcaption>
+        </figure>
+
+        <div class="gal__end">
+          <p class="gal__end-t">¿Ya viste suficiente para animarte?</p>
+          <a class="btn btn--primary" href="#contacto" data-wa="Hola, quiero mi propia postal de Celestún. ¿Me ayudan a planear mi visita?">Quiero mi propia postal</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<dialog class="lb" id="lb" aria-label="Galería ampliada">
+  <button class="lb__x" type="button" data-lb="close" aria-label="Cerrar galería">✕</button>
+  <button class="lb__nav lb__prev" type="button" data-lb="prev" aria-label="Foto anterior">‹</button>
+  <figure class="lb__fig"><img id="lbImg" src="" alt=""><figcaption id="lbCap"></figcaption></figure>
+  <button class="lb__nav lb__next" type="button" data-lb="next" aria-label="Foto siguiente">›</button>
+</dialog>
+
+<!-- ============ S8 · EN TIERRA ============ -->
+<section class="tierra" id="en-tierra" aria-labelledby="tierra-t">
+  <div class="container tierra__grid">
+    <div class="tierra__intro">
+      <p class="kicker" data-reveal>En tierra</p>
+      <h2 id="tierra-t" data-reveal style="--d:1">Antes y después de zarpar, todo a la mano.</h2>
+      <p data-reveal style="--d:2">Estacionamiento, baños, regaderas y una palapa frente al mar para descansar.</p>
+    </div>
+    <div class="tierra__cards">
+      <article class="tcard" data-reveal="flip" style="--d:1">
+        <svg class="tico tico--park" viewBox="0 0 64 64" aria-hidden="true"><rect x="10" y="4" width="44" height="38" rx="11"/><path d="M27 33V13h7.5a6.5 6.5 0 0 1 0 13H27"/><g class="car"><path d="M10 57h30M14 57l3-6h14l4 6"/><circle cx="18" cy="58" r="2"/><circle cx="33" cy="58" r="2"/></g></svg>
+        <h3>Estacionamiento</h3><p>Llega tranquilo: hay dónde estacionar.</p>
+      </article>
+      <article class="tcard" data-reveal="flip" style="--d:2">
+        <svg class="tico tico--wc" viewBox="0 0 64 64" aria-hidden="true"><g class="p1"><circle cx="21" cy="14" r="5"/><path d="M21 21v20M15 28h12M17 41v15M25 41v15"/></g><g class="p2"><circle cx="43" cy="14" r="5"/><path d="M43 21L35 43h16zM39 43v13M47 43v13"/></g></svg>
+        <h3>Baños</h3><p>Baños disponibles en el lugar.</p>
+      </article>
+      <article class="tcard" data-reveal="flip" style="--d:3">
+        <svg class="tico tico--shower" viewBox="0 0 64 64" aria-hidden="true"><path d="M12 58V20a10 10 0 0 1 10-10h18"/><path d="M26 22h28a14 9 0 0 0-28 0z"/><g class="drops" stroke-linecap="round"><path d="M31 30v4"/><path d="M38 30v4"/><path d="M45 30v4"/><path d="M52 30v4"/><path d="M34 30v4"/><path d="M41 30v4"/></g></svg>
+        <h3>Regaderas</h3><p>Quítate la sal y la arena después del baño maya.</p>
+      </article>
+      <article class="tcard" data-reveal="flip" style="--d:4">
+        <svg class="tico tico--palapa" viewBox="0 0 64 64" aria-hidden="true"><path d="M5 32L32 6l27 26z"/><path d="M14 32L32 15l18 17"/><path d="M32 32v18M19 32v18M45 32v18"/><path class="wv" d="M-24 57q6-5 12 0t12 0t12 0t12 0t12 0t12 0t12 0t12 0t12 0t12 0"/></svg>
+        <h3>Palapa frente al mar</h3><p>Un techo de palma con el mar enfrente.</p>
+      </article>
+    </div>
+  </div>
+  <div class="container">
+    <div class="banda" data-prog="pass">
+      <img src="assets/img/012-whatsapp-image-20261125-022437.jpg" width="1600" height="1067" loading="lazy" alt="Muelle de madera sobre agua color té entre manglares, a un paso de la lancha" style="object-position:50% 55%">
+      <div class="banda__shade"></div>
+      <p class="banda__t">Estaciona, refréscate y zarpa.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ S9 · GUÍAS ============ -->
+<section class="guias" id="guias" data-prog="pass" aria-labelledby="guias-t">
+  <i class="grain" aria-hidden="true"></i>
+  <div class="container guias__grid">
+    <div class="guias__text">
+      <p class="kicker kicker--inv" data-reveal>Confianza</p>
+      <h2 id="guias-t" data-reveal style="--d:1">Capitanes con libreta. <em>Guías certificados.</em></h2>
+      <p class="guias__p" data-reveal style="--d:2">Tu recorrido va con guías certificados y con libreta de capitán, registrados en la capitanía de puerto. Tú solo mira y pregunta.</p>
+      <ul class="checks">
+        <li data-reveal style="--d:2"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="13"/><path d="M9.5 16.5l4.5 4.5 8.5-9.5"/></svg>Guías certificados</li>
+        <li data-reveal style="--d:3"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="13"/><path d="M9.5 16.5l4.5 4.5 8.5-9.5"/></svg>Libreta de capitán</li>
+        <li data-reveal style="--d:4"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="13"/><path d="M9.5 16.5l4.5 4.5 8.5-9.5"/></svg>Registro en capitanía de puerto</li>
+      </ul>
+      <div data-reveal style="--d:5"><a class="btn btn--primary" href="#contacto" data-wa="Hola, quiero hacer el recorrido con guías certificados. ¿Me dan informes?">Quiero ir con guías certificados</a></div>
+    </div>
+
+    <div class="cred-wrap" id="cred" data-reveal style="--d:2">
+      <div class="cred">
+        <div class="cred__flip" id="credFlip">
+          <div class="cred__face cred__front">
+            <i class="holo"></i>
+            <img class="cred__logo" src="assets/logo-sm.png" width="96" height="96" alt="Sello de la cooperativa de ecoturismo de Celestún">
+            <p class="cred__t">GUÍA CERTIFICADO</p>
+            <div class="cred__lines"><i></i><i></i><i></i></div>
+            <p class="cred__foot">Libreta de capitán · Capitanía de puerto</p>
+          </div>
+          <div class="cred__face cred__back">
+            <i class="holo"></i>
+            <p class="cred__bk">Sociedad Cooperativa de C.V. de R.L.</p>
+            <p class="cred__bk2">Cooperativa de ecoturismo Celestún</p>
+          </div>
+        </div>
+      </div>
+      <div class="cred__shadow" aria-hidden="true"></div>
+      <img class="cred__photo" src="assets/img/009-whatsapp-image-20261125-022435.jpg" width="240" height="240" loading="lazy" alt="Visitantes sonriendo en el muelle antes de zarpar" style="object-position:50% 40%">
+      <button class="cred__btn" type="button" id="credBtn" aria-pressed="false">Girar credencial</button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ S10 · CÓMO FUNCIONA ============ -->
+<section class="pasos" id="reservar" aria-labelledby="pasos-t">
+  <div class="container">
+    <p class="kicker" data-reveal>Reservar</p>
+    <h2 id="pasos-t" data-reveal style="--d:1">Tu recorrido en <em>3 pasos</em></h2>
+    <div class="pasos__wrap" data-prog="draw">
+      <div class="pasos__line" aria-hidden="true"><i></i></div>
+      <ol class="pasos__list">
+        <li class="paso" data-reveal style="--d:1">
+          <span class="paso__n" aria-hidden="true">1</span>
+          <svg class="pico pico--chat" viewBox="0 0 64 64" aria-hidden="true"><path d="M10 12h44a4 4 0 0 1 4 4v24a4 4 0 0 1-4 4H30l-12 10V44h-8a4 4 0 0 1-4-4V16a4 4 0 0 1 4-4z"/><g class="dots"><circle cx="22" cy="28" r="2.4"/><circle cx="32" cy="28" r="2.4"/><circle cx="42" cy="28" r="2.4"/></g></svg>
+          <h3>Escríbenos por WhatsApp</h3><p>Cuéntanos cuántos son y qué día quieres ir.</p>
+        </li>
+        <li class="paso" data-reveal style="--d:2">
+          <span class="paso__n" aria-hidden="true">2</span>
+          <svg class="pico pico--clock" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="24"/><path d="M32 18v14l9 6" class="hand2"/></svg>
+          <h3>Elige tu hora</h3><p>Atendemos de 6 AM a 5 PM.</p>
+        </li>
+        <li class="paso" data-reveal style="--d:3">
+          <span class="paso__n" aria-hidden="true">3</span>
+          <svg class="pico pico--boat" viewBox="0 0 64 64" aria-hidden="true"><g class="rock"><path d="M6 38h52l-8 14H14z"/><path d="M18 38v-8h28v8M32 30V12l12 12H32"/></g><path d="M-32 58q7-5 14 0t14 0t14 0t14 0t14 0t14 0t14 0t14 0t14 0t14 0" class="wv2"/></svg>
+          <h3>Llega y zarpa</h3><p>Estaciona en Playa Columpio, sube a la lancha y deja que tu guía haga el resto.</p>
+        </li>
+      </ol>
+    </div>
+    <div class="pasos__cta" data-reveal>
+      <a class="btn btn--primary" href="#contacto" data-wa="Hola, estoy listo para zarpar. Quiero reservar el recorrido en lancha por la ría de Celestún.">Estoy listo para zarpar</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ S11 · PREGUNTAS ============ -->
+<section class="faqs" id="preguntas" data-prog="pass" aria-labelledby="faq-t">
+  <div class="container faqs__grid">
+    <div class="faqs__side">
+      <div class="faqs__sticky">
+        <p class="kicker" data-reveal>Preguntas</p>
+        <h2 id="faq-t" data-reveal style="--d:1">Lo que casi todos preguntan antes de zarpar</h2>
+        <span class="flam flam--xl" data-flam aria-hidden="true"></span>
+      </div>
+    </div>
+    <div class="faqs__list">
+      <details class="faq is-open" open>
+        <summary>¿Cuánto dura el recorrido?<i aria-hidden="true"></i></summary>
+        <div class="faq__body"><div><p>El recorrido dura 2 horas.</p></div></div>
+      </details>
+      <details class="faq">
+        <summary>¿Qué incluye el recorrido?<i aria-hidden="true"></i></summary>
+        <div class="faq__body"><div><p>Lancha con techo, chalecos y un guía que explica todo el recorrido. Pasas por parque ecológico, ruinas, playas vírgenes, flamencos, túnel de manglares, ojo de agua, isla de pájaros y baño maya.</p></div></div>
+      </details>
+      <details class="faq">
+        <summary>¿Hay estacionamiento y baños?<i aria-hidden="true"></i></summary>
+        <div class="faq__body"><div><p>Sí: estacionamiento, baños, regaderas y palapa frente al mar.</p></div></div>
+      </details>
+      <details class="faq">
+        <summary>¿Qué horario tienen?<i aria-hidden="true"></i></summary>
+        <div class="faq__body"><div><p>De 6 AM a 5 PM.</p></div></div>
+      </details>
+      <details class="faq">
+        <summary>¿Los guías están certificados?<i aria-hidden="true"></i></summary>
+        <div class="faq__body"><div><p>Sí, son guías certificados con libreta de capitán, registrados en capitanía de puerto.</p></div></div>
+      </details>
+      <details class="faq">
+        <summary>¿Cuánto cuesta?<i aria-hidden="true"></i></summary>
+        <div class="faq__body"><div><p>Escríbenos por WhatsApp y te compartimos las tarifas.</p></div></div>
+      </details>
+      <details class="faq">
+        <summary>¿Dónde están?<i aria-hidden="true"></i></summary>
+        <div class="faq__body"><div><p>En Celestún, Yucatán, en Playa Columpio.</p></div></div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ S12 · CONTACTO ============ -->
+<section class="contacto" id="contacto" data-prog="pass" aria-labelledby="con-t">
+  <div class="sol" aria-hidden="true"><i></i></div>
+  <div class="container contacto__grid">
+    <div class="contacto__info">
+      <p class="kicker kicker--inv" data-reveal>Contacto</p>
+      <h2 id="con-t" data-reveal style="--d:1">Tu lugar en la lancha te espera.</h2>
+      <p class="contacto__p" data-reveal style="--d:2">Cuéntanos cuándo quieres ir y te respondemos por WhatsApp.</p>
+      <ul class="clist" data-reveal style="--d:3">
+        <li><span>Horario</span><b>6 AM – 5 PM</b></li>
+        <li><span>Teléfono / WhatsApp</span><a href="tel:+529991778701"><b>+52 999 177 8701</b></a></li>
+        <li><span>Ubicación</span><b>Celestún, Yucatán</b></li>
+      </ul>
+      <div data-reveal style="--d:4"><a class="btn btn--light" href="https://www.google.com/maps/search/?api=1&amp;query=Playa+Columpio+Celest%C3%BAn" target="_blank" rel="noopener">Cómo llegar</a></div>
+    </div>
+
+    <div class="contacto__card" data-reveal style="--d:2">
+      <form class="form" id="form" novalidate data-needs-wa>
+        <h3 class="form__t">Pide tu lugar</h3>
+        <div class="field">
+          <label for="f-nombre">Tu nombre *</label>
+          <input id="f-nombre" name="nombre" type="text" autocomplete="name" required aria-describedby="e-nombre">
+          <p class="err" id="e-nombre" role="alert"></p>
+        </div>
+        <div class="field">
+          <label for="f-personas">¿Cuántas personas? *</label>
+          <input id="f-personas" name="personas" type="number" min="1" step="1" inputmode="numeric" required aria-describedby="e-personas">
+          <p class="err" id="e-personas" role="alert"></p>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="f-fecha">Fecha de visita</label>
+            <input id="f-fecha" name="fecha" type="date">
+          </div>
+          <div class="field">
+            <label for="f-horario">Horario preferido</label>
+            <select id="f-horario" name="horario">
+              <option value="">Sin preferencia</option>
+              <option value="mañana (6 a 10 AM)">Mañana 6–10</option>
+              <option value="mediodía (10 AM a 2 PM)">Mediodía 10–14</option>
+              <option value="tarde (2 a 5 PM)">Tarde 14–17</option>
+            </select>
+          </div>
+        </div>
+        <div class="field">
+          <label for="f-mensaje">Mensaje (opcional)</label>
+          <textarea id="f-mensaje" name="mensaje" rows="3"></textarea>
+        </div>
+        <button class="btn btn--primary btn--block" type="submit">Enviar mi solicitud por WhatsApp
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.2 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.2c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.3 0 .5l-.4.6c-.1.1-.3.3-.1.5.5.9 1.2 1.6 2 2.1.9.5 1.2.4 1.5.3.2-.2.6-.7.8-1 .2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.2.1.7-.1 1.3z"/></svg></button>
+      </form>
+      <p class="nowa" id="nowa" hidden>Por ahora puedes encontrarnos en Celestún, Yucatán, en Playa Columpio.</p>
+      <div class="map">
+        <iframe title="Mapa de Playa Columpio Celestún" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Playa+Columpio+Celest%C3%BAn&amp;output=embed"></iframe>
+      </div>
+    </div>
+  </div>
+  <div class="contacto__sea" aria-hidden="true">
+    <svg class="wave wave--a" viewBox="0 0 2400 120" preserveAspectRatio="none"><path d="M0 60Q150 20 300 60T600 60T900 60T1200 60T1500 60T1800 60T2100 60T2400 60V120H0Z" fill="rgba(31,163,176,.55)"/></svg>
+    <svg class="wave wave--b" viewBox="0 0 2400 120" preserveAspectRatio="none"><path d="M0 60Q150 100 300 60T600 60T900 60T1200 60T1500 60T1800 60T2100 60T2400 60V120H0Z" fill="#06241B"/></svg>
+  </div>
+</section>
+</main>
+
+<!-- ============ S13 · FOOTER ============ -->
+<footer class="foot" id="foot" data-prog="enter">
+  <i class="grain" aria-hidden="true"></i>
+  <div class="container foot__grid">
+    <div class="foot__brand">
+      <img src="assets/logo-sm.png" width="72" height="72" loading="lazy" alt="Sello de la cooperativa de ecoturismo de Celestún">
+      <p class="foot__name">Playa Columpio Celestún</p>
+      <p>Cooperativa de ecoturismo en Celestún, Yucatán.</p>
+    </div>
+    <nav class="foot__col" aria-label="Navegación del pie de página">
+      <h3>Navegación</h3>
+      <a href="#ruta">Ruta</a><a href="#a-bordo">A bordo</a><a href="#galeria">Galería</a><a href="#guias">Guías</a><a href="#preguntas">Preguntas</a><a href="#contacto">Contacto</a>
+    </nav>
+    <div class="foot__col">
+      <h3>Horario</h3>
+      <p>6 AM – 5 PM</p>
+    </div>
+    <div class="foot__col">
+      <h3>Contacto</h3>
+      <a href="tel:+529991778701">+52 999 177 8701</a>
+      <a href="#contacto" data-wa="Hola, me gustaría información del recorrido en lancha por la ría de Celestún.">Escríbenos por WhatsApp</a>
+    </div>
+  </div>
+  <p class="foot__big" aria-hidden="true">CELESTÚN</p>
+  <div class="container foot__copy"><p>© 2026 Playa Columpio Celestún. Todos los derechos reservados.</p></div>
+</footer>
+
+<!-- Botón flotante de WhatsApp -->
+<div class="wa" id="wa">
+  <p class="wa__bubble" id="waBubble" role="status">¿Te llevamos a la ría?</p>
+  <a class="wa__btn" href="#contacto" data-wa="Hola, me gustaría información del recorrido en lancha por la ría de Celestún." aria-label="Escribir por WhatsApp">
+    <i class="wa__ping" aria-hidden="true"></i>
+    <svg width="30" height="30" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.2 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.2c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.3 0 .5l-.4.6c-.1.1-.3.3-.1.5.5.9 1.2 1.6 2 2.1.9.5 1.2.4 1.5.3.2-.2.6-.7.8-1 .2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.2.1.7-.1 1.3z"/></svg>
+  </a>
+</div>
+
+<noscript><style>.loader{display:none}</style></noscript>
+</body>
+</html>
